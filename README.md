@@ -17,8 +17,8 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone [https://github.com/selenadanilova-ux/Uchi-widget-automation-python]
-   cd <tests>
+   git clone https://github.com/selenadanilova-ux/Uchi-widget-automation-python
+   cd Uchi-widget-automation-python
 
 2. **Создайте и активируйте виртуальное окружение:**
 ```bash
