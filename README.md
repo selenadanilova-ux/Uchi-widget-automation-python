@@ -21,21 +21,21 @@
    cd Uchi-widget-automation-python
 
 2. **Создайте и активируйте виртуальное окружение:**
-```bash
-python -m venv venv
-source venv/bin/activate  # для macOS/Linux
-# или
-venv\Scripts\activate     # для Windows
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # для macOS/Linux
+   # или
+   venv\Scripts\activate     # для Windows
 
 3. **Установите зависимости:**
-```bash
-pip install pytest-playwright
-playwright install chromium
+   ```bash
+   pip install pytest-playwright
+   playwright install chromium
 
 4. **Запустите тесты:**
-```bash
-# Запуск всех тестов в фоновом режиме
-pytest
+   ```bash
+   # Запуск всех тестов в фоновом режиме
+   pytest
 
-# Запуск с отображением браузера (headed mode)
-pytest --headed
+   # Запуск с отображением браузера (headed mode)
+   pytest --headed
